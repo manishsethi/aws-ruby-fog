@@ -1,15 +1,15 @@
 # aws-ruby-fog
 
 Requirement:
- > Install Ruby:
+ - Install Ruby:
      RVM: https://rvm.io/rvm/install
  
- > Install fog:
+ - Install fog:
 ```sh
 $ gem install fog --no-ri --no-rdoc
 ```
 
- > Configure fog:
+ - Configure fog:
 
     create .fog file in home directory add following lines
 
@@ -22,7 +22,7 @@ $ gem install fog --no-ri --no-rdoc
 ```sh
 $ ruby start-stop.rb
 ```
- > Setting the cronjob for Stop and Start Instance
+ - Setting the cronjob for Stop and Start Instance
 
 ```sh
 $ whenever -w
