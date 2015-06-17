@@ -3,11 +3,13 @@
 Requirement:
 1. Install Ruby:
      RVM: https://rvm.io/rvm/install
+
 2. Install fog:
 ```sh
 $ gem install fog --no-ri --no-rdoc
 ```
-   ####configure fog:
+
+  Configure fog:
 
     create .fog file in home directory add following lines
    default:
@@ -20,7 +22,7 @@ $ gem install fog --no-ri --no-rdoc
 ```sh
 $ ruby start-stop.rb
 ```
-###Setting the cronjob for Stop and Start Instance
+####Setting the cronjob for Stop and Start Instance
 
 ```sh
 $ whenever -w
