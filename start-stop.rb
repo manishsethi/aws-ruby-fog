@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
 require 'fog'
 
-$inst='something'
+$inst='Instance id'
 
 
 connection = Fog::Compute.new({:provider => 'AWS'})
